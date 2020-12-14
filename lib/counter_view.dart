@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_b/Lich_view/Lich_Widget.dart';
 import 'package:flutter_app_b/finished_list_widget.dart';
 import 'package:flutter_app_b/main.dart';
 import 'package:flutter_app_b/todo_list_widget.dart';
@@ -20,7 +21,7 @@ class _HomePageState extends State<HomePage> {
     final tabs = [
       TodoListWiget(),
       FinishedListWidget(),
-      Container(),
+      TimeTable(),
     ];
 
     return Scaffold(
