@@ -7,6 +7,7 @@ import 'package:flutter_app_b/todo_list_widget.dart';
 import 'package:flutter_app_b/todo_widget.dart';
 import 'package:provider/provider.dart';
 import 'DialogNhap.dart';
+import 'Lich_view/CalendarPage.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -20,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final tabs = [
       TodoListWiget(),
-      FinishedListWidget(),
+      CalendarPage(),
       TimeTable(),
     ];
 
